@@ -1,0 +1,6 @@
+Bundle-SymbolicName: braintree.payment.rest.api
+Bundle-Version: 1.0.0
+-includeresource:@braintree-java-2.73.0.jar
+ConfigurationPath: /configuration
+Include-Resource: configuration=src/main/resources/configuration
+-metatype: *

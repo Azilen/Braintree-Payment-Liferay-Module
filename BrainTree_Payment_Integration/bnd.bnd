@@ -1,0 +1,5 @@
+Bundle-SymbolicName: braintree_payment_integration
+Bundle-Version: 1.0.0
+-includeresource:@braintree-java-2.73.0.jar
+-metatype: *
+
