@@ -2,7 +2,10 @@ package com.azilen.payment.rest.braintree.model;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
-
+/* 
+ * @author nirali
+ * Transaction model containing required details for creating transaction in braintree
+ */
 public class TransactionModel {
 
 	private String payment_method_nonce;

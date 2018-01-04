@@ -19,9 +19,9 @@ import org.osgi.service.component.annotations.Component;
 				    },
 				    service =MVCRenderCommand.class
 	)
-public class paymentStatusRenderCommand implements MVCRenderCommand{
+public class PaymentStatusRenderCommand implements MVCRenderCommand{
 
-	private static Log LOG = LogFactoryUtil.getLog(paymentStatusRenderCommand.class);
+	private static Log LOG = LogFactoryUtil.getLog(PaymentStatusRenderCommand.class);
 	/* 
 	 * @author nirali
 	 * render method for redirecting to payment status page

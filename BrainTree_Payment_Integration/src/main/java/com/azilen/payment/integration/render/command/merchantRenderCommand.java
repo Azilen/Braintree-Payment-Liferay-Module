@@ -23,9 +23,9 @@ import org.osgi.service.component.annotations.Component;
 	    },
 	    service =MVCRenderCommand.class
 )
-public class merchantRenderCommand implements MVCRenderCommand{
+public class MerchantRenderCommand implements MVCRenderCommand{
 
-	private static Log LOG = LogFactoryUtil.getLog(PaymentActionCommand.class);
+	private static Log LOG = LogFactoryUtil.getLog(MerchantRenderCommand.class);
 	/* 
 	 * @author nirali
 	 * render method for redirecting to create merchant page

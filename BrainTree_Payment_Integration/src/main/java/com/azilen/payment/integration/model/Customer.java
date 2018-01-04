@@ -1,5 +1,9 @@
 package com.azilen.payment.integration.model;
 
+/* 
+ * @author nirali
+ * Customer model containing required details for creating customer in braintree
+ */
 public class Customer {
 	private String customerId;
 	private String firstName;

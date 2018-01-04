@@ -25,9 +25,9 @@ import org.osgi.service.component.annotations.Component;
 			    },
 			    service =MVCRenderCommand.class
 )
-public class paymentRenderCommand implements MVCRenderCommand {
+public class PaymentRenderCommand implements MVCRenderCommand {
 
-	private static Log LOG = LogFactoryUtil.getLog(paymentRenderCommand.class);
+	private static Log LOG = LogFactoryUtil.getLog(PaymentRenderCommand.class);
 	/* 
 	 * @author nirali
 	 * render method for redirecting to different page based on condition

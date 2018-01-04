@@ -1,5 +1,8 @@
 package com.azilen.payment.rest.braintree.model;
-
+/* 
+ * @author nirali
+ * Customer model containing required details for creating customer in braintree
+ */
 public class CustomerModel {
 
 	private String customerId;

@@ -47,12 +47,10 @@ public class BraintreePaymentRestServiceImpl {
 	 * @return
 	 */
 	public static BraintreeGateway getBraintreeGateway(){
-		final Configuration portletProperties = ConfigurationFactoryUtil
-			    .getConfiguration(BraintreeGateway.class.getClassLoader(), "portlet");
-		String environment = portletProperties.get("BT_ENVIRONMENT");
-		String merchantId=portletProperties.get("BT_MERCHANT_ID");
-		String publicKey=portletProperties.get("BT_PUBLIC_KEY");
-		String privateKey=portletProperties.get("BT_PRIVATE_KEY");
+		String environment=PropsUtil.get(RestConstant.BT_ENVIRONMENT);
+		String merchantId=PropsUtil.get(RestConstant.BT_MERCHANT_ID);
+		String publicKey=PropsUtil.get(RestConstant.BT_PUBLIC_KEY);
+		String privateKey=PropsUtil.get(RestConstant.BT_PRIVATE_KEY);
 		BraintreeGateway brainTree= new BraintreeGateway(environment, merchantId, publicKey, privateKey);
 		return brainTree;
 	}

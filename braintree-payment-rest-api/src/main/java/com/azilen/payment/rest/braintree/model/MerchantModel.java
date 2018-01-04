@@ -1,5 +1,8 @@
 package com.azilen.payment.rest.braintree.model;
-
+/* 
+ * @author nirali
+ * Merchant model containing required details for creating merchant in braintree
+ */
 public class MerchantModel {
 	private String subMerchantId;
 	private String firstName;

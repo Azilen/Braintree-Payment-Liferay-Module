@@ -1,5 +1,8 @@
 package com.azilen.payment.rest.braintree.constant;
-
+/* 
+ * @author nirali
+ * Braintree Rest API component constants
+*/
 public class RestConstant {
 
 	public static final String MERCHANT_PENDING_STATUS="Pending";
@@ -17,10 +20,10 @@ public class RestConstant {
 	public static final String CUSTOMER_NOT_UPDATED="Customer can not be updated";
 	public static final String TRANSACTION_CREATED="Transaction created successfully with ID:- ";
 	public static final String TRANSACTION_NOT_CREATED="Transaction can not be created ";
-	public static final String BT_ENVIRONMENT="environment";
-	public static final String BT_MERCHANT_ID="merchantId";
-	public static final String BT_PUBLIC_KEY="publicKey";
-	public static final String BT_PRIVATE_KEY="privateKey";
+	public static final String BT_ENVIRONMENT="BT_ENVIRONMENT";
+	public static final String BT_MERCHANT_ID="BT_MERCHANT_ID";
+	public static final String BT_PUBLIC_KEY="BT_PUBLIC_KEY";
+	public static final String BT_PRIVATE_KEY="BT_PRIVATE_KEY";
 	public static final String SERVICE_FEE="serviceFee";
 	public static final String CONFIGURATION_PID="com.azilen.payment.integration.configuration.PaymentConfiguration";
 	public static final String PORTLET_ID="com_azilen_payment_rest_controller_PaymentController";

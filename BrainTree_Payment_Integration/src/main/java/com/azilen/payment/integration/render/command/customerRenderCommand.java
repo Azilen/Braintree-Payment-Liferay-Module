@@ -19,9 +19,9 @@ import org.osgi.service.component.annotations.Component;
 				    },
 				    service =MVCRenderCommand.class
 	)
-public class customerRenderCommand implements MVCRenderCommand {
+public class CustomerRenderCommand implements MVCRenderCommand {
 
-	private static Log LOG = LogFactoryUtil.getLog(MVCRenderCommand.class);
+	private static Log LOG = LogFactoryUtil.getLog(CustomerRenderCommand.class);
 	/* 
 	 * @author nirali
 	 * render method for redirecting to create customer page

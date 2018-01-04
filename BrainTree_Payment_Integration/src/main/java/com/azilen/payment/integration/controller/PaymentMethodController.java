@@ -33,6 +33,10 @@ import org.osgi.service.component.annotations.Component;
 )
 public class PaymentMethodController extends MVCPortlet {
 	private static Log LOG = LogFactoryUtil.getLog(PaymentMethodController.class);
+	/* 
+	 * @author nirali
+	 * Default render method for payment method controller.
+	 */
 	@Override
 	public void doView(RenderRequest renderRequest,RenderResponse renderResponse){
 		LOG.info("Entry:render method of PaymentMethodController");

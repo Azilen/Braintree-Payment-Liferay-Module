@@ -1,5 +1,8 @@
 package com.azilen.payment.integration.util;
-
+/* 
+ * @author nirali
+ * Component constants
+ */
 public class Constant {
 
 	public static final String PORTLET_NAME = "com_azilen_payment_integration_controller_PaymentMethodController";
